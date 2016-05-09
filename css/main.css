@@ -1,4 +1,4 @@
-*{outline: 1px solid rgba(255,0,0,0.2);}
+/**{outline: 1px solid rgba(255,0,0,0.2);}*/
 
 
 body{
@@ -84,11 +84,6 @@ input,textarea{
 	padding-bottom: 20px;
 	padding-top: 20px;
 }
-.projects{
-	border-top: 1px dashed  #777676;
-	border-bottom: 1px dashed  #777676;
-
-}
 .projects div{
 	display: inline-block;
 	padding-right: 10px;
@@ -133,4 +128,44 @@ input,textarea{
 }
 .final {
 	color: #BAB8B8;
+	border-top: 1px solid #545353;
+	border-bottom: 1px solid #545353;
+}
+.final:first-child{
+	border: none; 
+}
+.final:last-child{
+	border: none;
+}
+.final h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.final h5{
+	color: #A0A0A0;
+	padding: 5px;
+}
+.final .col-3 div{
+	margin: 5px;
+}
+.copyright{
+	padding: 20px;	
+	margin-left: 130px;
+	width: 650px;
+}
+.type{
+	font-size: 18px;
+}
+.iconos ul{
+	list-style: none;
+}
+.iconos img{
+	width: 30px;
+	height: 30px;
+}
+.iconos li{
+	display: inline;
+}
+.points ul{
+	list-style: none;
 }
